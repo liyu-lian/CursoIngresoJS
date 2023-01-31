@@ -45,5 +45,13 @@ function multiplicar()
 
 function dividir()
 {
-	
+	var numerouno = txtIdNumeroUno.value;
+	var numerodos = txtIdNumeroDos.value;
+	var resultado;
+
+	numerouno = parseInt(numerouno);
+	numerodos = parseInt(numerodos);
+
+	resultado = numerouno / numerodos;
+	alert("El resultado de la división es: "+resultado);
 }
