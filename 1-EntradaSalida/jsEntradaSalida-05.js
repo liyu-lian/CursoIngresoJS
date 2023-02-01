@@ -5,10 +5,7 @@ function mostrar()
 {	
 	var nombre = txtIdNombre.value;
 	var edad = txtIdEdad.value;
-	var resultado;
 
-	resultado = "Usted se llama "+nombre+" y tiene "+edad+" años.";
-
-	alert(resultado);
+	alert("Usted se llama "+nombre+" y tiene "+edad);
 }
 
