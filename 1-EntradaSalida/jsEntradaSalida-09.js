@@ -9,7 +9,7 @@ function mostrarAumento()
 	var aumento;
 	var importetotal;
 
-	Sueldo = document.getElementById(txtIdSueldo).value;
+	Sueldo = document.getElementById('txtIdSueldo').value;
 
 	Sueldo = parseInt(Sueldo);
 	aumento = (10*Sueldo)/100;

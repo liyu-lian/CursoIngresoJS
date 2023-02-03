@@ -9,7 +9,7 @@ function mostrarAumento()
 	var descuento;
 	var importetotal;
 
-	Importe = document.getElementById(txtIdImporte).value;
+	Importe = document.getElementById('txtIdImporte').value;
 
 	Importe = parseInt(Importe);
 	descuento = (25*Importe)/100;
