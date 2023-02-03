@@ -6,9 +6,12 @@ ej.: "la Resta es 750"*/
 
 function sumar()
 {	
-	var numerouno = txtIdNumeroUno.value;
-	var numerodos = txtIdNumeroDos.value;
+	var numerouno;
+	var numerodos;
 	var resultado;
+
+	numerouno = document.getElementById('txtIdNumeroUno').value;
+	numerodos = document.getElementById('txtIdNumeroDos').value;
 
 	numerouno = parseInt(numerouno);
 	numerodos = parseInt(numerodos);
@@ -19,9 +22,12 @@ function sumar()
 
 function restar()
 {
-	var numerouno = txtIdNumeroUno.value;
-	var numerodos = txtIdNumeroDos.value;
+	var numerouno;
+	var numerodos;
 	var resultado;
+
+	numerouno = document.getElementById('txtIdNumeroUno').value;
+	numerodos = document.getElementById('txtIdNumeroDos').value;
 
 	numerouno = parseInt(numerouno);
 	numerodos = parseInt(numerodos);
@@ -32,9 +38,12 @@ function restar()
 
 function multiplicar()
 { 
-	var numerouno = txtIdNumeroUno.value;
-	var numerodos = txtIdNumeroDos.value;
+	var numerouno;
+	var numerodos;
 	var resultado;
+
+	numerouno = document.getElementById('txtIdNumeroUno').value;
+	numerodos = document.getElementById('txtIdNumeroDos').value;
 
 	numerouno = parseInt(numerouno);
 	numerodos = parseInt(numerodos);
@@ -45,9 +54,12 @@ function multiplicar()
 
 function dividir()
 {
-	var numerouno = txtIdNumeroUno.value;
-	var numerodos = txtIdNumeroDos.value;
+	var numerouno;
+	var numerodos;
 	var resultado;
+
+	numerouno = document.getElementById('txtIdNumeroUno').value;
+	numerodos = document.getElementById('txtIdNumeroDos').value;
 
 	numerouno = parseInt(numerouno);
 	numerodos = parseInt(numerodos);

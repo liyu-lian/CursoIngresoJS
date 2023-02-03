@@ -6,9 +6,12 @@ ej.: "El resto es 0 ."*/
 function SacarResto()
 {
 	//Inspeccionar y buscar el nombre txt en el recuadro
-	var dividendo = txtIdNumeroDividendo.value;
-	var divisor = txtIdNumeroDivisor.value;
+	var dividendo;
+	var divisor;
 	var resto;
+
+	dividendo = document.getElementById('txtIdNumeroDividendo').value;
+	divisor = document.getElementById('txtIdNumeroDivisor').value;
 
 	dividendo = parseInt(dividendo);
 	divisor = parseInt(divisor);
