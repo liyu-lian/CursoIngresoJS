@@ -4,9 +4,13 @@ Al presionar el botón pedir un sexo
 function mostrar()
 {
 	var sexoIngresado;
+
 	sexoIngresado = prompt("ingrese f ó m .");
 
+	while(sexoIngresado != "f" && sexoIngresado != "m")
+	{
+		sexoIngresado = prompt(" El caracter ingresado no es válido. Ingrese f o m: ");
+	}
 
-
-	txtIdSexo.value=sexoIngresado;
+	document.getElementById('txtIdSexo').value = sexoIngresado;
 }//FIN DE LA FUNCIÓN
