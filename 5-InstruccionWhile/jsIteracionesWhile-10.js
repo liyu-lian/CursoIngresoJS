@@ -12,6 +12,7 @@ hasta que el usuario quiera, mostrar:
 9-Diferencia entre positivos y negativos, (positvos-negativos). */
 function mostrar()
 {
+	debugger
 	var respuesta = 'si';
 	var numeroingresado;
 	var negativos = 0;
@@ -20,6 +21,9 @@ function mostrar()
 	var sumaPositivos = 0;
 	var ceros = 0;
 	var par = 0;
+	var promedionegativos = 0;
+	var promediopositivos = 0;
+	var diferencia;
 
 	do{
 		
@@ -35,8 +39,8 @@ function mostrar()
 		{
 			if(numeroingresado > 0)
 			{
-			sumaPositivos += numeroingresado;
-			positivos++;
+				sumaPositivos += numeroingresado;
+				positivos++;
 			}
 			else
 			{
@@ -44,16 +48,26 @@ function mostrar()
 			}
 		}
 
+		if(numeroingresado % 2 == 0)
+		{
+			par++;
+		}
+
 		respuesta = prompt("¿Desea seguir? ");
 	}while(respuesta == 'si')
 
-
+	promedionegativos = (sumaNegativos)/negativos;
+	promediopositivos = (sumaPositivos)/positivos;
+	diferencia = positivos - negativos;
 	document.write("<p>la suma de negativos es :</p>"+sumaNegativos);
 	document.write("<p>la suma de positivos es :</p>"+sumaPositivos);
 	document.write("<p>Cantidad de negativos: </p>"+negativos);
 	document.write("<p>Catidad de positivos: </p>"+positivos);
 	document.write("<p>Cantidad de ceros: </p>"+ceros);
-	document.write("<p>Canridad de numeros pares: </p>"+par);
+	document.write("<p>Cantidad de numeros pares: </p>"+par);
+	document.write("<p>Promedio negativos: </p>"+promedionegativos);
+	document.write("<p>Promedio positivos: </p>"+promediopositivos);
+	document.write("<p>Diferencia entre positivos y negativos: </p>"+diferencia);
 
 	document.close();
 }//FIN DE LA FUNCIÓN
