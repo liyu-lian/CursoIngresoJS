@@ -4,10 +4,14 @@ function mostrar()
     let variable_1;
     let variable_2;
     let variable_;
+    let acompañaflag;
+    let acompañaflag_2;
+    let acompañaflag_3;
 
     let flag;
 
     flag = false;
+    contador_total = 0;
     
     while(variable <> )
     {
@@ -33,7 +37,18 @@ function mostrar()
 	    variable = prompt("Error!! ingrese  : ").toLowerCase();
         }
 
+        switch(variable)
+        {
+            case '':
+                break;
+            case '':
+                break;
+            case '':
+                break;
+        }
+
     }
+
 
     if(flag == false)
     {
@@ -48,15 +63,6 @@ function mostrar()
         }
     }
 
-    switch(variable)
-    {
-        case '':
-            break;
-        case '':
-            break;
-        case '':
-            break;
-    }
     
 
     document.write("");

@@ -1,4 +1,9 @@
 function mostrar()
 {
-	alert("ok");
+	var i;
+
+	for(i = 0; i < 11 ; i++)
+	{
+		document.write(" "+i+"");
+	}
 }

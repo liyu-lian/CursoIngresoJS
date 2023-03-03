@@ -35,6 +35,17 @@ function mostrar()
 	         variable = prompt("Error!! ingrese  : ").toLowerCase();
         }
 
+        switch(variable)
+        {
+            case '':
+                break;
+            case '':
+                break;
+            case '':
+                break;
+        }
+    
+
     }while(respuesta = confirm("¿ Desea seguir ingresando datos?"));
 
     if(flag == false)
@@ -48,16 +59,6 @@ function mostrar()
         {
 
         }
-    }
-
-    switch(variable)
-    {
-        case '':
-            break;
-        case '':
-            break;
-        case '':
-            break;
     }
 
 
